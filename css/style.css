@@ -9,6 +9,36 @@ body{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
+/* STYLE LIST */
+nav{
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    z-index: 10;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;  
+    text-align: center;
+}
+
+li a{
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
 /* LAYOUT SECTIONS */
 .section{
     height: 100vh;
